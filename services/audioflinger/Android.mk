@@ -59,6 +59,8 @@ LOCAL_STATIC_LIBRARIES := \
     libmedia_helper \
     libserviceutility
 
+LOCAL_CFLAGS += -Os
+
 LOCAL_MODULE:= libaudioflinger
 LOCAL_32_BIT_ONLY := true
 
